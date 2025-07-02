@@ -1,0 +1,298 @@
+@font-face {
+  font-family: mainc;
+  src: url(../fonts/Spell_2.ttf);
+}
+@font-face {
+  font-family: texta;
+  src: url(/fonts/Academy.Kz_.ttf);
+}
+
+body {
+  background-color: #fff;
+  color: #1a1a1a;
+  width: 100%;
+  height: 4952px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  background: none;
+}
+#up {
+  width: 100%;
+  height: 659px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  flex-direction: column;
+  font-family: "mainc";
+}
+#uping {
+  width: 80%;
+  height: 75px;
+  color: #2d2d2d;
+  background-color: white;
+  display: flex;
+  gap: 20px;
+}
+
+#upim {
+  height: 37px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#uptex {
+  height: 36px;
+  width: 90%;
+  display: flex;
+}
+#tex1 {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+#tex2 {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #33383f;
+
+  &:active {
+    color: #000000;
+  }
+}
+#b2 {
+  background-color: #0070a0;
+  color: white;
+  &:active {
+    color: #aaa;
+  }
+}
+#b1 {
+  color: #0070a0;
+}
+#texpup {
+  background-color: white;
+  width: 80%;
+  height: 433px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#im {
+  height: 422px;
+  width: 452px;
+}
+#shap {
+  height: 321px;
+  width: 525px;
+  background-color: white;
+  margin-bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.h {
+  font-family: "texta";
+  font-size: 400%;
+  line-height: 20px;
+}
+#shaptex1 {
+  width: 351px;
+  height: 90px;
+  top: 3px;
+  font-family: "mainc";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+}
+#shaptex2 {
+  width: 174px;
+  height: 43px;
+  top: 265.72px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-family: "mainc";
+  color: white;
+  background-color: #0070a0;
+  &:active {
+    color: #aaa;
+  }
+}
+#shaptex3 {
+  width: 196px;
+  height: 27px;
+  top: 8px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-family: "mainc";
+  color: #0070a0;
+  &:active {
+    color: #aaa;
+  }
+}
+#rec {
+  width: 1230px;
+  height: 96px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: #333;
+}
+#comp {
+  width: 100%;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+}
+#fms {
+  width: 80%;
+  height: 250px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.block {
+  height: 250px;
+  width: 300px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #1a1a1a;
+}
+#fmsblock1 {
+  background-color: #faea73d3;
+}
+#fmsblock2 {
+  background-color: #cceff6d3;
+}
+#fmsblock3 {
+  background-color: #f7cedcd3;
+}
+.miblock {
+  width: 80%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.hfms {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#das1 {
+  position: relative;
+  right: 60px;
+}
+#das2 {
+  position: relative;
+  right: 80px;
+}
+#das3 {
+  position: relative;
+  right: 60px;
+}
+#gltabl {
+  height: 700px;
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee;
+}
+#tabl {
+  height: 540px;
+  width: 80%;
+  color: #2d2d2d;
+  display: flex;
+  flex-wrap: wrap;
+}
+#vnuttabl1 {
+  height: 100px;
+  width: 650px;
+}
+.hq2 {
+  line-height: 40px;
+  font-family: "texta";
+}
+#hq1 {
+  font-size: 310%;
+}
+#hq2 {
+  font-size: 280%;
+}
+#vnuttabl2 {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.stroch {
+  width: 450px;
+  border-bottom: 2px solid #c5c5c5;
+  border-top: 2px solid #c5c5c5;
+  margin: 1px;
+}
+.stroch h3 {
+  font-weight: normal;
+}
+#stroch1 {
+  height: 157px;
+}
+#stroch2 {
+  height: 64px;
+}
+#stroch3 {
+  height: 64px;
+}
+#stroch4 {
+  height: 64px;
+}
+.im1 {
+  position: relative;
+  bottom: 5px;
+  display: flex;
+}
+#vector1 {
+  margin-left: 186px;
+}
+#vector2 {
+  margin-left: 232px;
+}
+#vector3 {
+  margin-left: 232px;
+}
+#vector4 {
+  margin-left: 224px;
+}
+h2{
+  display: flex;
+}
+
