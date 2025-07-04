@@ -4,14 +4,21 @@
 }
 @font-face {
   font-family: texta;
-  src: url(/fonts/Academy.Kz_.ttf);
+  src: url(../fonts/Academy.Kz_.ttf);
+}
+@font-face {
+  font-family: Inter;
+  src: url(../fonts/Inter-Thin.otf);
+}
+@font-face {
+  font-family: Fraunces;
+  src: url(../fonts/Fraunces.ttf);
 }
 
 body {
   background-color: #fff;
   color: #1a1a1a;
-  width: 100%;
-  height: 4952px;
+  height: 100%;
   overflow-x: hidden;
   overflow-y: scroll;
   display: flex;
@@ -123,7 +130,7 @@ button {
   line-height: 30px;
   letter-spacing: 0.2px;
 }
-#shaptex2 {
+.shaptex2 {
   width: 174px;
   height: 43px;
   top: 265.72px;
@@ -292,7 +299,383 @@ button {
 #vector4 {
   margin-left: 224px;
 }
-h2{
+h2 {
   display: flex;
+  margin-top: 15px;
+}
+#glblock5 {
+  width: 80%;
+  height: 220px;
+  margin-top: 125px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+#hvglavblock {
+  height: 220px;
+  width: 30%;
+}
+#hb1 {
+  font-size: 350%;
+}
+#hb2 {
+  font-size: 320%;
+}
+#tablglavblock {
+  height: 220px;
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+#textavtabl1 {
+  height: 100%;
+  width: 33%;
+  background-color: #fff;
+  margin-top: 45px;
+}
+#textavtabl2 {
+  height: 100%;
+  width: 33%;
+  background-color: #fff;
+}
+#textavtabl3 {
+  height: 100%;
+  width: 33%;
+  background-color: #fff;
+}
+.texta {
+  display: flex;
+  flex-direction: column;
+}
+.ima {
+  width: 45px;
+  height: 45px;
+}
+.texta p {
+  margin-top: 10px;
+}
+#glblock6 {
+  height: 550px;
+  width: 100%;
+  margin-top: 150px;
+  background-color: #0070a0;
+  color: rgb(235, 235, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#podblock6 {
+  width: 80%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+#ppblock6 {
+  height: 400px;
+  width: 500px;
+}
+#pppbloki1 {
+  height: 80px;
+  width: 100%;
+  font-size: 110;
+}
+#pppbloki2 {
+  height: 100px;
+  width: 100%;
+}
+.pppbloki3 {
+  width: 175px;
+  height: 50px;
+  text-decoration: wavy;
+  text-align: center;
+  font-family: "mainc";
+  color: white;
+  background-color: #0070a0;
+  &:active {
+    color: #aaa;
+  }
+}
+.ppptex1 {
+  font-size: 250%;
+  font-family: "Fraunces";
+}
+.ppptex2 {
+  font-size: 250%;
+  font-family: "Inter";
+  font-weight: 100;
+}
+
+li {
+  list-style-image: url("../imade/Vector3.svg");
+}
+
+#glblock7 {
+  width: 80%;
+  height: 410px;
+  margin-top: 120px;
+  gap: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.pod6block1 {
+  width: 100%;
+  height: 130px;
+}
+.button-a {
+  color: #0070a0;
+  width: 112px;
+  height: 22px;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+
+  &:active {
+    color: #aaa;
+  }
+  .button-b {
+    background-color: #e6f7ff;
+  }
+  #news {
+    position: relative;
+    right: 30px;
+  }
+}
+.ppod6block1 {
+  width: 30%;
+  height: 50px;
+  font-size: 200%;
+  display: flex;
+  align-items: center;
+}
+.ppod6block2 {
+  width: 60%;
+  height: 55px;
+  font-size: 120%;
+  display: flex;
+  align-items: center;
+}
+#pod6block2 {
+  width: 100%;
+  height: 220px;
+}
+.ppodbloki {
+  width: 235px;
+  height: 220px;
+}
+#p {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+#fonglblock8 {
+  width: 100%;
+  height: 750px;
+  background-color: #f7f9fa;
+  margin-top: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#glblock8 {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#ppblock8-1 {
+  height: 70px;
+  width: 100%;
+  font-size: 200%;
+  display: flex;
+  justify-content: space-between;
+}
+#ppblock8-2 {
+  height: 490px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+#pppbloki8-1 {
+  width: 335px;
+  height: 490px;
+}
+#pppbloki8-2 {
+  width: 355px;
+  height: 490px;
+}
+#pppbloki8-3 {
+  width: 355px;
+  height: 490px;
+}
+#im8-1 {
+  height: 238px;
+  width: 100%;
+  background-image: url(../imade/autotel.svg);
+}
+#im8-2 {
+  height: 238px;
+  width: 100%;
+  background-image: url(../imade/compcan.svg);
+}
+#im8-3 {
+  height: 238px;
+  width: 100%;
+  background-image: url(../imade/rukaour.svg);
+}
+#h8 {
+  margin-top: 10px;
+}
+#p8 {
+  font-size: 70%;
+  margin-top: 25px;
+  color: #0070a0;
+  &:active {
+    color: #000;
+  }
+}
+.miblock8 {
+  width: 100%;
+  height: 250px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.h8-1 {
+  margin: 10px 20px 0px 20px;
+  font-family: "Fraunces";
+  font-size: 140%;
+}
+.miblock8-2 {
+  margin: 10px 20px 0px 20px;
+}
+.miblock8-3 {
+  margin: 20px 20px 0px 20px;
+}
+#glblock9 {
+  width: 100%;
+  height: 500px;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#fonblock9 {
+  width: 80%;
+  height: 370px;
+  background-color: #e6f7ff;
+}
+#block9 {
+  width: 480px;
+  height: 270px;
+  margin: 25px;
+  margin-left: 60px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+#h9-1 {
+  font-size: 250%;
+}
+#ppblock9-1 {
+  font-size: 120%;
+}
+#ppblock9-2 {
+  margin-top: 30px;
+}
+#ppblock9-3 {
+  display: flex;
+  gap: 70px;
+}
+.im-9 {
+  margin-right: 3px;
+}
+#glblock10 {
+  width: 80%;
+  height: 250px;
+  margin-top: 10px;
+}
+#ppblock10-1 {
+  width: 100%;
+  height: 220px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+#tabl10-1 {
+  display: flex;
+  flex-direction: column;
+}
+#tabl10-1 img {
+  width: 50px;
+  height: 50px;
+}
+#ttab-1 {
+  font-size: 170%;
+  display: flex;
+  height: 50px;
+  width: 300px;
+}
+#ttab-1 h2 {
+  position: relative;
+  bottom: 10px;
+}
+#ttab-2 {
+  width: 150px;
+  height: 40px;
+}
+#p10-1::after {
+  content: "Pippa";
+  color: #0070a0;
+}
+#p10-2::after {
+  content: "Vs code";
+  color: #0070a0;
+}
+#p10-2 {
+  position: relative;
+  bottom: 15px;
+}
+#bl1 {
+  margin-bottom: 10px;
+  color: black;
+  list-style: none;
+  list-style-image: none;
+}
+#tabl10-2 li {
+  list-style: none;
+  list-style-image: none;
+}
+.li10{
+  color: #a0a0a0;
+}
+#tabl10-3 li {
+  list-style: none;
+  list-style-image: none;
+}
+#tabl10-4{
+  width: 220px;
+  height: 220px;
+}
+#email{
+  display: flex;
+  gap: 40px;
+  border-bottom:1px  solid #a0a0a0;
+  padding-bottom: 4px;
+}
+#by{
+  position: relative;
+  margin-top: 25px;
+  &::after{
+    content: "Streamline";
+    color: #0070a0;
+  }
+}
+#ppblock10-2{
+  border-top: solid 2px #a0a0a0;
+  height: 60px;
 }
 
